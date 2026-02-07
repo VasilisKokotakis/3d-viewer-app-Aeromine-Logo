@@ -2,7 +2,7 @@
 
 A modern, interactive 3D model viewer built with React, Three.js, and Vite. Perfect for showcasing 3D assets, product models, and logos in a seamless web experience.
 
-## ✨ Features
+## Features
 
 - **glTF & GLB Support** - Load `.gltf`, `.glb`, and binary model files
 - **Interactive Controls** - Rotate, zoom, and pan with intuitive mouse controls
@@ -11,7 +11,7 @@ A modern, interactive 3D model viewer built with React, Three.js, and Vite. Perf
 - **Fast Development** - Hot module reloading with Vite
 - **Production Ready** - Optimized builds with tree-shaking and code splitting
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -41,7 +41,7 @@ npm run build      # Creates optimized build in dist/
 npm run preview    # Preview production build locally
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -67,7 +67,7 @@ npm run preview    # Preview production build locally
 └── README.md
 ```
 
-## 🎮 Controls
+## Controls
 
 | Action | Input |
 |--------|-------|
@@ -75,7 +75,7 @@ npm run preview    # Preview production build locally
 | **Zoom** | Mouse wheel up/down |
 | **Pan** | Right-click and drag (Ctrl+Click on Mac) |
 
-## 🔧 Technologies
+## Technologies
 
 | Package | Version | Purpose |
 |---------|---------|---------|
@@ -85,7 +85,7 @@ npm run preview    # Preview production build locally
 | @react-three/drei | ^9.117.3 | 3D utilities & helpers |
 | Vite | ^7.3.1 | Build tool & dev server |
 
-## 📦 Adding Your Own Models
+## Adding Your Own Models
 
 1. **Place model files in `public/models/`**
    ```bash
@@ -108,7 +108,7 @@ npm run preview    # Preview production build locally
 
 For detailed instructions, see [QUICKSTART.md](QUICKSTART.md).
 
-## 🌍 Browser Support
+## Browser Support
 
 | Browser | Minimum Version |
 |---------|-----------------|
@@ -119,7 +119,7 @@ For detailed instructions, see [QUICKSTART.md](QUICKSTART.md).
 
 Requires WebGL support. Check compatibility: https://caniuse.com/webgl
 
-## 🚢 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 
@@ -136,13 +136,13 @@ Deploy the `dist/` directory to:
 - AWS S3
 - Any static host
 
-## 📚 Documentation
+## Documentation
 
 - **[QUICKSTART.md](QUICKSTART.md)** - Installation and basic usage
 - **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common issues and solutions
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** - Technical architecture details
 
-## 🔗 Resources
+## Resources
 
 - [Three.js Documentation](https://threejs.org/docs/)
 - [React Three Fiber Docs](https://docs.pmnd.rs/react-three-fiber/)
@@ -150,7 +150,7 @@ Deploy the `dist/` directory to:
 - [glTF Specifications](https://www.khronos.org/gltf/)
 - [Free 3D Models](https://sketchfab.com/)
 
-## 💡 Tips for Best Performance
+## Tips for Best Performance
 
 - Use **`.glb` format** instead of `.gltf` for smaller file sizes
 - Keep models under **100k polygons** for smooth performance
@@ -158,7 +158,7 @@ Deploy the `dist/` directory to:
 - Use **LOD (Level of Detail)** versions for complex models
 - Test on slower devices to ensure good performance
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Model not showing?
 - Check browser console (F12) for errors
@@ -174,11 +174,11 @@ npm run build
 
 See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for more help.
 
-## 📄 License
+## License
 
 MIT License - Feel free to use this project for personal or commercial purposes.
 
-## 🙋 Contributing
+## Contributing
 
 Contributions are welcome! You can:
 - Report bugs via GitHub Issues
@@ -186,12 +186,12 @@ Contributions are welcome! You can:
 - Submit pull requests
 - Share your cool models!
 
-## 👨‍💻 Development
+## Development
 
 Developed by [Vasilis Kokotakis](https://github.com/VasilisKokotakis)
 
 ---
 
-**Ready to get started?** Check out the [QUICKSTART.md](QUICKSTART.md) guide! 🎨
+**Ready to get started?** Check out the [QUICKSTART.md](QUICKSTART.md) guide!
 
-Built with ❤️ using React + Three.js
+Built with React + Three.js
